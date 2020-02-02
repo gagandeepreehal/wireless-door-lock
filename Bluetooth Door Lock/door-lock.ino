@@ -5,7 +5,7 @@ Servo myservo;  // create servo object to control a servo
 String inputString = "";
 String command = "";
 String value = "";
-String password = "1958936"; // this is the password for opening and closing your door
+String password = "1958654"; // this is the password for opening and closing your door
                             // you can set any pasword you like using digit and symbols
 boolean stringComplete = false; 
 
