@@ -6,4 +6,4 @@ Don't worry about heating of relay and arduino.it's safe and tried and tested.
 Here we have used our own designed hinge mechanism using threads but for ease you can use your own or can buy the lock directly from stores.
 Make the connections tight as it may results in automatic disconections from bluetooth module while in use.
 Make the connections accordingly given in schematic.(make changes accordingly if using components other than mentioned above)
-"""""""""""""""""""""""""""""""""""""""""""""""""FROM-AVISHEK,GAGAN,ARSH,ANKIT""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""FROM-AVISHEK,GAGAN,ARSH,ANKIT"""""""""""""""""""""""""""""""""""""""""""""
