@@ -1,0 +1,26 @@
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+int commond;
+void setup() {
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+  Serial.begin(9600);
+}
+
+void loop() {
+  if( Serial.available()>0){
+    commond=Serial.read();
+    }
+    
+ if(commond=='0'){
+  myservo.write(-50);  // Unlock position in my case modify according to yours.
+  delay(1500);  // Time to stay on line for servo to arrive its position.(Not Much Necessary)
+ }
+ 
+ if(commond=='1'){
+  myservo.write(170);  // lock position in my case modify according to yours.
+  delay(1500);  // Time to stay on line for servo to arrive its position.(Not Much Necessary)
+ }
+  
+}
