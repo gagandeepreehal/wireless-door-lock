@@ -18,4 +18,7 @@ Here we have used our own designed hinge mechanism using threads but for ease yo
 Delay of servo motor must be selected accordingly with the time taken by door to get in lock position.
 Make the connections tight as it may results in automatic disconections from bluetooth module while in use.
 Make the connections accordingly given in schematic. (Make changes accordingly if using components other than mentioned above)
+### Demo
+
+![giphy](https://media.giphy.com/media/MfBTsWxsytR2pqkxEN/giphy.gif)
 
